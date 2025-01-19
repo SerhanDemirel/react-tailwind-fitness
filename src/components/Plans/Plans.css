@@ -1,0 +1,29 @@
+.plans {
+  padding: 2rem;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+.plan-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+}
+
+.card h3 {
+  color: #f39c12;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #333;
+}
